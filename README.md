@@ -1,73 +1,30 @@
-# Welcome to your Lovable project
+🎥 YouTube Summary Generator
 
-## Project info
+YouTube Summary Generator is an AI-powered web application designed to enhance content consumption by generating concise and meaningful summaries of YouTube videos. By simply providing a YouTube video URL, the application extracts key insights and creates a brief overview along with interactive quizzes, allowing users to quickly grasp important information without watching the entire video.
 
-**URL**: https://lovable.dev/projects/41bc3de9-031a-47d0-8ebc-6c0ee4e8fbc4
+🌐 Live Demo
 
-## How can I edit this code?
+Check out the live project here:
+https://youtube-summary-generator.vercel.app/
 
-There are several ways of editing your application.
+🛠 Features
 
-**Use Lovable**
+✅ URL-based Video Summary: Paste any YouTube URL and instantly get a well-structured summary of the video’s content.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/41bc3de9-031a-47d0-8ebc-6c0ee4e8fbc4) and start prompting.
+✅ Interactive Quizzes: Generates multiple-choice quizzes based on the video content to help reinforce learning.
 
-Changes made via Lovable will be committed automatically to this repo.
+✅ Clean & Intuitive UI: Easy-to-use interface designed with responsiveness in mind, works on desktop and mobile devices.
 
-**Use your preferred IDE**
+✅ AI Integration: Utilizes advanced AI tools (ChatGPT, Gemini, Perplexity) to analyze video transcripts and generate summaries and quizzes automatically.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚙️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+React – For building interactive frontend UI.
 
-Follow these steps:
+TypeScript – Strongly typed JavaScript for better scalability.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Tailwind CSS – Utility-first CSS framework for rapid, responsive design.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+AI Tools (ChatGPT, Gemini, Perplexity) – For generating accurate summaries and quizzes based on video content.
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/41bc3de9-031a-47d0-8ebc-6c0ee4e8fbc4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Vercel – Hosted on Vercel for seamless deployment.
